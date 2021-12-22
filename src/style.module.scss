@@ -1,0 +1,62 @@
+﻿.App {
+
+}
+
+.logo {
+    height: 75px;
+    margin-right: 24px;
+
+    cursor: pointer;
+}
+
+
+.header {
+    
+}
+
+.link {
+    color: #61dafb;
+}
+
+.element {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.navbar {
+    background-color: #FF383E;
+    width: auto;
+    padding: 12px;
+    display: flex;
+    border-bottom: 2px solid #CC2C32;
+}
+
+.navButtons {
+    position: absolute;
+    display: flex;
+    right: 0;
+    transform: translateY(-12px);
+
+    @media screen and (max-width: 800px) {
+        visibility: hidden;
+    }
+}
+
+.navButton {
+    float: right;
+    margin-right: 24px;
+    transition: 0.2s;
+    cursor: pointer;
+
+    margin-top: 12px;
+
+    &:hover {
+        border-bottom: 2px solid black;
+    }
+}
+
+.navButtonActive {
+    @extend .navButton;
+
+    border-bottom: 2px solid black;
+}

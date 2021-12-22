@@ -1,0 +1,30 @@
+﻿.logo {
+    margin: auto;
+    width: 550px;
+
+    @media screen and (max-width: 800px) {
+        width: 350px;
+    }
+}
+
+.header {
+    margin: auto;
+    text-align: center;
+
+    font-weight: 600;
+}
+
+.wrapper {
+    padding-top: 36px;
+    padding-bottom: 36px;
+
+    height: auto;
+
+    background-color: #FF383E;
+}
+
+.element {
+    width: 100%;
+
+    text-align: center;
+}
