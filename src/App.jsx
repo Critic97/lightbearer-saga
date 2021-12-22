@@ -16,7 +16,7 @@ import style from './style.module.scss';
 function App() {
 
     const [pageIndex, setPageIndex] = useState(0);
-    const construction = 0; //set to true for production
+    const construction = 1; //set to true for production
 
     const headers = [
         { name: "Home Page", action: "", page: <HomePage/>, style: style.navButton},
